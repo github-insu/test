@@ -1,10 +1,10 @@
 # study
 1] 사용자 이름/이메일 등록
 1-1. 사용자 이름 등록
-git config --global user.name "github-insu"
+git config --global user.name "username"
 
 1-2. 사용자 이메일 등록
-git config --global user.email "93insu@gmail.com"
+git config --global user.email "email"
 
 1-3. 등록 확인
 git config --list
