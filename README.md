@@ -5,12 +5,11 @@
 git config --global user.name "username"
 
 1-2. 사용자 이메일 등록
-<<<<<<< HEAD
+
 git config --global user.email "useremail"
-=======
+
 
 git config --global user.email "email"
->>>>>>> 5bdba350770bf197a7b030c03e7e4366c4382cfb
 
 1-3. 등록 확인
 
