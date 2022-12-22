@@ -1,6 +1,7 @@
 # study
 1] 사용자 이름/이메일 등록
 1-1. 사용자 이름 등록
+
 git config --global user.name "username"
 
 1-2. 사용자 이메일 등록
