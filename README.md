@@ -45,10 +45,23 @@ git add .
 
 git add -A
 
+#특정 파일 올리기
+
+git add 파일명
+
 4-2. add 내역 확인
 
 git status
 
+4-3. staging area에서 빼기
+
+#모두 취소
+
+git rm --cached -r
+
+#특정 파일만 취소
+
+git rm --cached 파일명
 
 5] 저장소에 commit (-m은 메세지 약자, "내용")
 
@@ -59,6 +72,10 @@ git commit -m "feat : README.md update"
 6-1. push 전에 원격 저장소와 로컬 저장소를 연결
 
 git remote add origin (원격 저장소 github URL)
+
+#연결된 원격 저장소 확인
+
+git remote -v
 
 6-2. push
 
@@ -74,3 +91,13 @@ git push origin main
 
 7] pull : 원격저장소에 업데이트한 파일이 있을 때, 원격저장소와 내 로컬저장소의 상태를 동일하게 할때
 git pull 
+
+8] branch
+
+8-1. 현재 브랜치 이름 확인
+
+git branch
+
+8-2. 브랜치 이름 바꾸기
+
+git branch -m [바꿀 브랜치 명]
