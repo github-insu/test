@@ -1,16 +1,17 @@
-# study
 1] 사용자 이름/이메일 등록
+
 1-1. 사용자 이름 등록
 git config --global user.name "username"
 
 1-2. 사용자 이메일 등록
-git config --global user.email "email"
+git config --global user.email "useremail"
 
 1-3. 등록 확인
 git config --list
 
 
 2] 로컬 저장소 생성
+
 2-1. 로컬 저장소 생성(방법1)
 git init   #원하는 폴더에서 로컬 저장소를 수동으로 생성
 
@@ -19,6 +20,7 @@ git clone (git 저장소의 URL)
 
 
 3]코드 생성
+
 3-1. README.md라는 파일에 스트링 문자 쓰는 코드
 echo 'hello, git!' > README.md
 
@@ -26,6 +28,7 @@ echo 'hello, git!' > README.md
 cat README.md
 
 4]Staging 영역에 추가
+
 4-1. 현재 디렉토리에 있는 업데이트 된 파일을 전부 스테이징 영역으로 추가
 git add .
 git add -A
@@ -35,9 +38,12 @@ git status
 
 
 5] 저장소에 commit (-m은 메세지 약자, "내용")
+
 git commit -m "feat : README.md update" 
 
+
 6] 원격저장소에 push, 업데이트 된 내용은 pull
+
 6-1. push 전에 원격 저장소와 로컬 저장소를 연결
 git remote add origin (원격 저장소 github URL)
 
@@ -49,5 +55,7 @@ git push origin master
 git branch -M main
 git push origin main
 
+
 7] pull : 원격저장소에 업데이트한 파일이 있을 때, 원격저장소와 내 로컬저장소의 상태를 동일하게 할때
-git pull 
+
+git pull
