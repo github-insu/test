@@ -94,10 +94,9 @@ git push origin main
 
 
 7] pull : 원격저장소에 업데이트한 파일이 있을 때, 원격저장소와 내 로컬저장소의 상태를 동일하게 할때
-<<<<<<< HEAD
 
 git pull
-=======
+
 git pull 
 
 8] branch
@@ -109,4 +108,3 @@ git branch
 8-2. 브랜치 이름 바꾸기
 
 git branch -m [바꿀 브랜치 명]
->>>>>>> 5bdba350770bf197a7b030c03e7e4366c4382cfb
