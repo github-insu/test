@@ -37,6 +37,7 @@ echo 'hello, git!' > README.md
 
 cat README.md
 
+
 4]Staging 영역에 추가
 
 4-1. 현재 디렉토리에 있는 업데이트 된 파일을 전부 스테이징 영역으로 추가
@@ -55,15 +56,10 @@ git add 파일명
 
 git status
 
-4-3. staging area에서 빼기
-
-#모두 취소
-
-git rm --cached -r
-
-#특정 파일만 취소
+4-3. 파일을 삭제하는 명령(--cached작성시 원격만 삭제, 미작성시 원격,지역 모두 삭제)
 
 git rm --cached 파일명
+
 
 5] 저장소에 commit (-m은 메세지 약자, "내용")
 
@@ -102,6 +98,7 @@ git push origin main
 git pull
 
 git pull 
+
 
 8] branch
 
