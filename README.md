@@ -107,6 +107,10 @@ git pull [원격저장소이름] [브랜치이름]
 
 git branch
 
-8-2. 브랜치 이름 바꾸기
+8-2. 브랜치 변경
 
-git branch -m [바꿀 브랜치 명]
+git checkout [바꿀 브랜치 명]
+
+#[-b]브랜치 작성과 변경이 동시에 이루어짐
+
+git checkout -b [바꿀 브랜치 명]
