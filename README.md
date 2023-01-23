@@ -72,10 +72,10 @@ git commit -m "feat : README.md update"
 
 git remote add origin (원격 저장소 github URL)
 
-#원격 저장소 모두 확인
+#현재 연결된 원격 저장소 리스트
 git remote
 
-#연결된 원격 저장소 확인
+#현재 연결된 원격 저장소 상태 확인
 
 git remote -v
 
