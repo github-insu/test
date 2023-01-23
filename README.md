@@ -114,3 +114,7 @@ git checkout [바꿀 브랜치 명]
 #[-b]브랜치 작성과 변경이 동시에 이루어짐
 
 git checkout -b [바꿀 브랜치 명]
+
+8-3. 브랜치 삭제
+
+git branch -d [삭제할 브랜치 명]
