@@ -8,7 +8,6 @@ git config --global user.name "username"
 
 git config --global user.email "useremail"
 
-
 git config --global user.email "email"
 
 1-3. 등록 확인
@@ -73,11 +72,16 @@ git commit -m "feat : README.md update"
 git remote add origin (원격 저장소 github URL)
 
 #현재 연결된 원격 저장소 리스트
+
 git remote
 
 #현재 연결된 원격 저장소 상태 확인
 
 git remote -v
+
+#원격 저장소 이름 변경
+
+git remote rename [현재저장소이름] [바꿀저장소이름]
 
 #연결된 원격 저장소 끊기
 
@@ -114,3 +118,7 @@ git checkout [바꿀 브랜치 명]
 #[-b]브랜치 작성과 변경이 동시에 이루어짐
 
 git checkout -b [바꿀 브랜치 명]
+
+8-3. 브랜치 삭제
+
+git branch -d [삭제할 브랜치 명]
