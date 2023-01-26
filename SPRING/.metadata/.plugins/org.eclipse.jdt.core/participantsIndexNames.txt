@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-C:\eGovFrame-4.0.0\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\238545544.index
-\SpringMVC1\src\main\java
-C:\eGovFrame-4.0.0\SPRING\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2207236577.index
-\SpringSample\src\main\java
