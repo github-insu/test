@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>info</title>
+    <!-- Linking Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css"/>
+</head>
+<body>
+
+  <form class = "info_container" action="info/create", method = "post">
+      <fieldset class="form-login">
+          <legend>로그인 필수 사항</legend>
+          <div class = "info-div">
+              <label class="form-label">아이디</label>
+              <input type = "text" name = "id" placeholder="id를 입력해주세요" size = "20">
+          </div>
+          <div class = "info-div">
+              <label class="form-label">비밀번호</label>
+              <input type = "password" name = "pw" placeholder="pw를 입력해주세요" size = "20">
+          </div>
+          <div class = "info-div">
+              <label class="form-label">비밀번호 확인</label>
+              <input type = "password" name = "pw2" placeholder="pw를 한번 더 입력해주세요" size = "20">
+          </div>
+      </fieldset>
+
+      <fieldset class="form-private">
+          <legend>개인 정보 필수 사항</legend>
+          <div class = "info-div">
+              <label class="form-label">e-mail</label>
+              <input type = "text" name = "email" placeholder="email을 입력해주세요">
+          </div>
+          <div class = "info-div">
+              <label class="form-label">휴대폰번호</label>
+              <input type = "text" name = "phone_number" placeholder="phone_number를 입력해주세요">
+          </div>
+      </fieldset>
+
+      <fieldset class="form-send">
+          <input type="submit" value="가입하기">
+          <input type="reset" value="다시쓰기">
+      </fieldset>
+  </form>
+</body>
+</html>
