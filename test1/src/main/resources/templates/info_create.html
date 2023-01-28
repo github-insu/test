@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>생성결과</title>
+</head>
+<body>
+<h1 th:text="${InfoDto}"></h1>
+<table>
+    <thead>
+    <tr>
+      <th>아이디</th>
+      <th>비밀번호</th>
+      <th>이메일</th>
+      <th>번호</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td th:text="${id}"></td>
+            <td th:text="${pw}"></td>
+            <td th:text="${email}"></td>
+            <td th:text="${phone_number}"></td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/* form fieldset끼리 10px 간격 */
+form fieldset {
+    margin : 10px 0px;
+}
+
+/* legend 조건주기 */
+form legend {
+    font-size : 18px;
+    color : #0066ff;
+    font-weight : 600;
+}
+
+/* 회원가입 목록이름에 조건주기 */
+form label.form-label {
+    font-size : 14px;
+    width : 120px;
+    float : center;
+}
+
+/* 버튼 가운데 맞추기 */
+form fieldset.form-login,fieldset.form-private,fieldset.form-send {
+    text-align : center;
+}
