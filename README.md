@@ -99,6 +99,12 @@ git branch -M [바꿀브랜치이름]]
 
 git push [원격저장소이름] [브랜치이름]
 
+cf) 원격저장소 변경시
+
+fatal: refusing to merge unrelated histories 이런 경고문이 뜰 때
+
+git pull [리모트저장소] [브랜치] --allow-unrelated-histories
+
 
 7] pull : 원격저장소에 업데이트한 파일이 있을 때, 원격저장소와 내 로컬저장소의 상태를 동일하게 할때
 
